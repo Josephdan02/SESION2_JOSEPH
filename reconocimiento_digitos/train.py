@@ -241,6 +241,7 @@ def _validacion_sintetica(semilla: int = 888) -> tuple[np.ndarray, np.ndarray]:
     sustituye la validación ni la prueba oficiales de load_digits.
     """
     from utils.rendering import multitemplate_sintetico
+    from utils.preprocessing import preprocesar_imagen
 
     X, y = [], []
     for k, lienzo in enumerate(multitemplate_sintetico(semilla=semilla, n_por_clase=30)):
