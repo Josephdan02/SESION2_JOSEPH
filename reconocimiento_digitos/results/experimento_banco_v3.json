@@ -1,0 +1,126 @@
+{
+  "v2|Sequential": {
+    "datos": "load_digits x3 = 3231",
+    "n_entrenamiento": 3231,
+    "epocas_efectivas": 57,
+    "accuracy_validacion": 0.988889,
+    "f1_macro_validacion": 0.988993,
+    "accuracy_prueba": 0.980556,
+    "f1_macro_prueba": 0.980557,
+    "banco_dibujos": {
+      "accuracy": 0.8375,
+      "n": 160,
+      "por_origen": {
+        "mediana_2025": {
+          "accuracy": 0.9,
+          "n": 10
+        },
+        "pista": {
+          "accuracy": 0.8,
+          "n": 50
+        },
+        "pista_555": {
+          "accuracy": 0.8,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.9,
+          "n": 50
+        }
+      }
+    }
+  },
+  "v2|Functional": {
+    "datos": "load_digits x3 = 3231",
+    "n_entrenamiento": 3231,
+    "epocas_efectivas": 86,
+    "accuracy_validacion": 0.980556,
+    "f1_macro_validacion": 0.980446,
+    "accuracy_prueba": 0.988889,
+    "f1_macro_prueba": 0.98878,
+    "banco_dibujos": {
+      "accuracy": 0.8625,
+      "n": 160,
+      "por_origen": {
+        "mediana_2025": {
+          "accuracy": 0.9,
+          "n": 10
+        },
+        "pista": {
+          "accuracy": 0.84,
+          "n": 50
+        },
+        "pista_555": {
+          "accuracy": 0.82,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.92,
+          "n": 50
+        }
+      }
+    }
+  },
+  "v3|Sequential": {
+    "datos": "load_digits x3 + banco(60) = 3291",
+    "n_entrenamiento": 3291,
+    "epocas_efectivas": 75,
+    "accuracy_validacion": 0.983333,
+    "f1_macro_validacion": 0.983392,
+    "accuracy_prueba": 0.980556,
+    "f1_macro_prueba": 0.980383,
+    "banco_dibujos": {
+      "accuracy": 0.9688,
+      "n": 160,
+      "por_origen": {
+        "mediana_2025": {
+          "accuracy": 1.0,
+          "n": 10
+        },
+        "pista": {
+          "accuracy": 1.0,
+          "n": 50
+        },
+        "pista_555": {
+          "accuracy": 1.0,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.9,
+          "n": 50
+        }
+      }
+    }
+  },
+  "v3|Functional": {
+    "datos": "load_digits x3 + banco(60) = 3291",
+    "n_entrenamiento": 3291,
+    "epocas_efectivas": 113,
+    "accuracy_validacion": 0.980556,
+    "f1_macro_validacion": 0.980676,
+    "accuracy_prueba": 0.986111,
+    "f1_macro_prueba": 0.985968,
+    "banco_dibujos": {
+      "accuracy": 0.9688,
+      "n": 160,
+      "por_origen": {
+        "mediana_2025": {
+          "accuracy": 0.9,
+          "n": 10
+        },
+        "pista": {
+          "accuracy": 1.0,
+          "n": 50
+        },
+        "pista_555": {
+          "accuracy": 1.0,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.92,
+          "n": 50
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "modelo": "Sequential",
+  "umbral_baja_confianza": 0.7,
+  "exactitud_conjunto_prueba": 0.983333,
+  "tamano_conjunto_prueba": 360,
+  "exactitud_20_dibujos_propios": null,
+  "prueba_20_dibujos_realizada": false,
+  "prueba_20_registrados": 0,
+  "prueba_20_faltantes": 20,
+  "prueba_20_correctos": 0,
+  "prueba_20_incorrectos": 0,
+  "exactitud_30_imagenes_original": 1.0,
+  "exactitud_30_imagenes_con_ruido": 0.966667,
+  "diferencia_accuracy_ruido": 0.033333,
+  "advertencias_baja_confianza_20_dibujos": 0,
+  "advertencias_baja_confianza_en_30_imagenes": 0
+}

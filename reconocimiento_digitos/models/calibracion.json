@@ -1,0 +1,8 @@
+{
+  "lado_caja": 7.6,
+  "grosor_relativo": 0.14,
+  "centro_masa_fila": 3.5,
+  "centro_masa_columna": 3.5,
+  "n_imagenes": 0,
+  "nota": "valores elegidos por comparacion en dibujos sinteticos y redibujados; train.py recalcula caja y centro con ENTRENAMIENTO"
+}

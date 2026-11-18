@@ -1,0 +1,55 @@
+{
+  "nombre_modelo": "Sequential",
+  "arquitectura_seleccionada": "Modelo Sequential (red densa)",
+  "api": "Sequential",
+  "configuracion_capas": [
+    "Input(shape=(64,))",
+    "Dense(128, activation='relu', kernel_regularizer=l2(1e-4))",
+    "Dropout(0.25)",
+    "Dense(64, activation='relu', kernel_regularizer=l2(1e-4))",
+    "Dense(10, activation='softmax')"
+  ],
+  "neuronas_ocultas": [
+    128,
+    64
+  ],
+  "dropout": 0.25,
+  "regularizacion_l2": 0.0001,
+  "optimizador": "Adam",
+  "learning_rate": 0.001,
+  "funcion_perdida": "categorical_crossentropy",
+  "batch_size": 32,
+  "epocas_maximas": 200,
+  "epocas_efectivas": 183,
+  "parametros_entrenables": 17226,
+  "num_entradas": 64,
+  "forma_entrada": [
+    8,
+    8
+  ],
+  "num_clases": 10,
+  "escala_original_pixeles": "0 a 16 (enteros de load_digits)",
+  "factor_normalizacion": 16.0,
+  "semilla": 42,
+  "preprocesamiento": "Píxeles de load_digits divididos entre 16.0 (rango 0-1). En la aplicación: recorte de márgenes del dibujo, inversión de colores (dígito claro sobre fondo oscuro), escalado proporcional a 6x6, centrado en 8x8, escala 0-16 y división entre 16.0, aplanado a 64 valores.",
+  "umbral_baja_confianza": 0.7,
+  "tolerancia_persistencia": 1e-06,
+  "fecha_entrenamiento": "2026-11-17 21:01:20",
+  "versiones": {
+    "python": "3.11.3",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.4.3"
+  },
+  "seleccion": {
+    "criterio": "F1 macro en validación (desempate por accuracy)",
+    "f1_macro_validacion": {
+      "Sequential": 0.991692,
+      "Functional": 0.980496
+    },
+    "accuracy_validacion": {
+      "Sequential": 0.991667,
+      "Functional": 0.980556
+    }
+  }
+}

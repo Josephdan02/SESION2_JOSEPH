@@ -1,0 +1,9 @@
+indice_muestra,posicion_en_prueba,digito_real,digito_predicho,probabilidad_maxima,segunda_opcion,probabilidad_segunda,baja_confianza,explicacion
+751,18,9,4,0.61254,9,0.34306,True,Se confundió el 9 con el 4: píxeles activos=25; píxeles de 8x8 borrosos tras reducir el tamaño.
+492,36,6,8,0.343291,5,0.327532,True,Se confundió el 6 con el 8: píxeles activos=27; píxeles de 8x8 borrosos tras reducir el tamaño.
+1553,51,8,1,0.72314,8,0.196667,False,Se confundió el 8 con el 1: píxeles activos=24; píxeles de 8x8 borrosos tras reducir el tamaño.
+1666,76,8,7,0.862984,8,0.135267,False,Se confundió el 8 con el 7: píxeles activos=22; píxeles de 8x8 borrosos tras reducir el tamaño.
+69,93,9,7,0.640357,9,0.317151,True,Se confundió el 9 con el 7: píxeles activos=23; píxeles de 8x8 borrosos tras reducir el tamaño.
+1573,140,0,4,0.731415,0,0.208858,False,Se confundió el 0 con el 4: píxeles activos=24; píxeles de 8x8 borrosos tras reducir el tamaño.
+1574,231,9,7,0.518358,9,0.383682,True,Se confundió el 9 con el 7: píxeles activos=25; píxeles de 8x8 borrosos tras reducir el tamaño.
+329,284,9,7,0.700901,9,0.233403,False,Se confundió el 9 con el 7: píxeles activos=20; mucha tinta arriba y poca abajo; píxeles de 8x8 borrosos tras reducir el tamaño.

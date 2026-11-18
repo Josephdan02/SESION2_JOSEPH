@@ -1,0 +1,9 @@
+# Dependencias del proyecto: Sistema interactivo de reconocimiento de dígitos
+# Python 3.11 en Windows. Versiones verificadas en el entorno (las fijas se comentan abajo).
+tensorflow>=2.15,<2.22
+scikit-learn>=1.3,<2
+numpy>=1.24,<3
+matplotlib>=3.7,<4
+pandas>=2.0,<4
+Pillow>=10,<13
+pytest>=7,<10

@@ -1,0 +1,67 @@
+{
+  "nombre_modelo": "Sequential",
+  "arquitectura_seleccionada": "Modelo Sequential (red densa)",
+  "api": "Sequential",
+  "configuracion_capas": [
+    "Input(shape=(64,))",
+    "Dense(128, activation='relu', kernel_regularizer=l2(1e-4))",
+    "Dropout(0.25)",
+    "Dense(64, activation='relu', kernel_regularizer=l2(1e-4))",
+    "Dense(10, activation='softmax')"
+  ],
+  "neuronas_ocultas": [
+    128,
+    64
+  ],
+  "dropout": 0.25,
+  "regularizacion_l2": 0.0001,
+  "optimizador": "Adam",
+  "learning_rate": 0.001,
+  "funcion_perdida": "categorical_crossentropy",
+  "batch_size": 32,
+  "epocas_maximas": 200,
+  "epocas_efectivas": 61,
+  "parametros_entrenables": 17226,
+  "num_entradas": 64,
+  "forma_entrada": [
+    8,
+    8
+  ],
+  "num_clases": 10,
+  "escala_original_pixeles": "0 a 16 (enteros de load_digits)",
+  "factor_normalizacion": 16.0,
+  "semilla": 42,
+  "preprocesamiento": "Píxeles de load_digits divididos entre 16.0 (rango 0-1). En la aplicación: recorte de la caja del trazo, inversión de colores (dígito claro sobre fondo oscuro), normalización del grosor relativo, escalado proporcional a la caja típica del dataset (7.6 px), centrado en 8x8 y escala 0-16 dividida entre 16.0.",
+  "datos_entrenamiento": "Solo los índices de ENTRENAMIENTO de load_digits (1077) + 2 copias aumentadas en alta resolución (desplazamiento, giro, escala, grosor) = 3231 muestras. Sin datos externos ni banco sintético.",
+  "aumentacion": {
+    "copias": 2,
+    "transformaciones": "desplazamiento ±1 px, giro ±12°, escala 0.90-1.10, grosor ±0.5 px (8x8 equivalente) en 32x32",
+    "aplicada_solo_a": "entrenamiento"
+  },
+  "version": "v2 (preprocesamiento corregido + aumentación)",
+  "modelo_v1_accuracy_prueba": 0.983333,
+  "umbral_baja_confianza": 0.7,
+  "tolerancia_persistencia": 1e-06,
+  "fecha_entrenamiento": "2026-11-17 22:22:39",
+  "versiones": {
+    "python": "3.11.3",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.4.3"
+  },
+  "seleccion": {
+    "criterio": "F1 macro en validación (desempate por accuracy), solo entre modelos v2",
+    "f1_macro_validacion": {
+      "Sequential": 0.991685,
+      "Functional": 0.986041
+    },
+    "accuracy_validacion": {
+      "Sequential": 0.991667,
+      "Functional": 0.986111
+    },
+    "v1_f1_macro_validacion": {
+      "Sequential": 0.991692,
+      "Functional": 0.980496
+    }
+  }
+}

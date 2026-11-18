@@ -1,0 +1,4 @@
+fecha_hora,digito_real,digito_predicho,probabilidad_maxima,resultado
+2026-11-17 21:31:32,9,4,0.657081,incorrecto
+2026-11-17 22:08:06,8,4,0.952331,incorrecto
+2026-11-17 22:08:16,7,7,0.877962,correcto

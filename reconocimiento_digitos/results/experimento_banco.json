@@ -1,0 +1,158 @@
+{
+  "v1_load_digits|Sequential": {
+    "datos": "sin aumentacion",
+    "n_entrenamiento": 1077,
+    "parametros": 17226,
+    "epocas_efectivas": 183,
+    "accuracy_validacion": 0.991667,
+    "f1_macro_validacion": 0.991692,
+    "accuracy_prueba": 0.983333,
+    "f1_macro_prueba": 0.983081,
+    "banco_dibujos": {
+      "accuracy": 0.763636,
+      "f1_macro": 0.760873,
+      "aciertos": 84,
+      "total": 110,
+      "por_origen": {
+        "pista": {
+          "accuracy": 0.72,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.8,
+          "n": 60
+        }
+      }
+    }
+  },
+  "v1_load_digits|Functional": {
+    "datos": "sin aumentacion",
+    "n_entrenamiento": 1077,
+    "parametros": 6570,
+    "epocas_efectivas": 129,
+    "accuracy_validacion": 0.980556,
+    "f1_macro_validacion": 0.980496,
+    "accuracy_prueba": 0.980556,
+    "f1_macro_prueba": 0.980399,
+    "banco_dibujos": {
+      "accuracy": 0.772727,
+      "f1_macro": 0.775751,
+      "aciertos": 85,
+      "total": 110,
+      "por_origen": {
+        "pista": {
+          "accuracy": 0.76,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.7833,
+          "n": 60
+        }
+      }
+    }
+  },
+  "v2_aumentado|Sequential": {
+    "datos": "load_digits train x3 = 3231",
+    "n_entrenamiento": 3231,
+    "parametros": 17226,
+    "epocas_efectivas": 58,
+    "accuracy_validacion": 0.988889,
+    "f1_macro_validacion": 0.988976,
+    "accuracy_prueba": 0.991667,
+    "f1_macro_prueba": 0.991577,
+    "banco_dibujos": {
+      "accuracy": 0.809091,
+      "f1_macro": 0.80149,
+      "aciertos": 89,
+      "total": 110,
+      "por_origen": {
+        "pista": {
+          "accuracy": 0.68,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.9167,
+          "n": 60
+        }
+      }
+    }
+  },
+  "v2_aumentado|Functional": {
+    "datos": "load_digits train x3 = 3231",
+    "n_entrenamiento": 3231,
+    "parametros": 6570,
+    "epocas_efectivas": 77,
+    "accuracy_validacion": 0.991667,
+    "f1_macro_validacion": 0.991685,
+    "accuracy_prueba": 0.988889,
+    "f1_macro_prueba": 0.988637,
+    "banco_dibujos": {
+      "accuracy": 0.827273,
+      "f1_macro": 0.819035,
+      "aciertos": 91,
+      "total": 110,
+      "por_origen": {
+        "pista": {
+          "accuracy": 0.78,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.8667,
+          "n": 60
+        }
+      }
+    }
+  },
+  "v3_aumentado_banco|Sequential": {
+    "datos": "load_digits train x3 + banco = 3341",
+    "n_entrenamiento": 3341,
+    "parametros": 17226,
+    "epocas_efectivas": 58,
+    "accuracy_validacion": 0.986111,
+    "f1_macro_validacion": 0.986168,
+    "accuracy_prueba": 0.994444,
+    "f1_macro_prueba": 0.994439,
+    "banco_dibujos": {
+      "accuracy": 0.990909,
+      "f1_macro": 0.99089,
+      "aciertos": 109,
+      "total": 110,
+      "por_origen": {
+        "pista": {
+          "accuracy": 1.0,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.9833,
+          "n": 60
+        }
+      }
+    }
+  },
+  "v3_aumentado_banco|Functional": {
+    "datos": "load_digits train x3 + banco = 3341",
+    "n_entrenamiento": 3341,
+    "parametros": 6570,
+    "epocas_efectivas": 90,
+    "accuracy_validacion": 0.991667,
+    "f1_macro_validacion": 0.991685,
+    "accuracy_prueba": 0.977778,
+    "f1_macro_prueba": 0.977466,
+    "banco_dibujos": {
+      "accuracy": 0.936364,
+      "f1_macro": 0.935809,
+      "aciertos": 103,
+      "total": 110,
+      "por_origen": {
+        "pista": {
+          "accuracy": 1.0,
+          "n": 50
+        },
+        "redibujado": {
+          "accuracy": 0.8833,
+          "n": 60
+        }
+      }
+    }
+  }
+}

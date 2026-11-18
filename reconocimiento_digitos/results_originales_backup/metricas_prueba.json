@@ -1,0 +1,26 @@
+{
+  "descripcion": "Evaluación única sobre la partición de prueba (20 %), nunca usada para elegir.",
+  "criterio_de_seleccion": "F1 macro en validación; accuracy como desempate.",
+  "modelo_seleccionado": "Sequential",
+  "semilla": 42,
+  "tamano_prueba": 360,
+  "modelos": {
+    "Sequential": {
+      "accuracy": 0.983333,
+      "f1_macro": 0.983081,
+      "aciertos": 354
+    },
+    "Functional": {
+      "accuracy": 0.980556,
+      "f1_macro": 0.980399,
+      "aciertos": 353
+    }
+  },
+  "modelo_final_en_prueba": {
+    "nombre": "Sequential",
+    "accuracy": 0.983333,
+    "f1_macro": 0.983081,
+    "aciertos": 354
+  },
+  "umbral_baja_confianza": 0.7
+}

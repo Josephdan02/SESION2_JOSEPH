@@ -1,0 +1,8 @@
+estrategia,lado_caja,grosor_relativo,aciertos_pistas_30,aciertos_redibujados_60,aciertos_banco_estrecho_50,total,aciertos_totales
+"v1 original (caja 6, pluma 2)",6.0,0.05,16,12,26,140,54
+"v2 literal (caja 6, sin grosor)",6.0,0.05,16,12,26,140,54
+"actual (caja 7, grosor 0.42)",7.0,0.42,10,11,16,140,37
+"solo-grosor fino (caja 7, 0.13)",7.0,0.13,23,19,40,140,82
+"solo-grosor medio (caja 7, 0.16)",7.0,0.16,25,19,38,140,82
+caja 7.5 grosor 0.16,7.5,0.16,23,51,40,140,114
+caja 6.6 grosor 0.16,6.6,0.16,25,17,38,140,80
